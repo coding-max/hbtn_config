@@ -1,13 +1,14 @@
 # hbtn_config
-
+```
 git config --global user.name "Maximiliano Pan"  
 git config --global user.email "maximiliano.pan@hotmail.com"  
 git config --global credential.helper store  
+```
 
 ## Betty linter
-- 'cd' into the Betty directory  
-- install the linter with 'sudo ./install.sh'  
-- emacs a new file called 'betty', and copy the script below: 
+- `cd` into the Betty directory  
+- install the linter with `sudo ./install.sh`  
+- emacs a new file called `betty`, and copy the script below: 
 
 ```
 #!/bin/bash
@@ -31,5 +32,5 @@ for argument in "$@" ; do
     ${BIN_PATH}/${BETTY_DOC} "$argument"
 done
 ```
--  change permissions to apply to all users with 'chmod a+x betty'  
--  move the 'betty' file into '/bin/' directory  
+-  change permissions to apply to all users with `chmod a+x betty`  
+-  move the `betty` file into `/bin/` directory  
