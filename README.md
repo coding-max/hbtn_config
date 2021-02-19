@@ -5,7 +5,7 @@ git config --global user.email "maximiliano.pan@hotmail.com"
 git config --global credential.helper store  
 ```
 
-## Betty linter
+## betty linter
 - `cd` into the Betty directory  
 - install the linter with `sudo ./install.sh`  
 - emacs a new file called `betty`, and copy the script below: 
@@ -34,3 +34,16 @@ done
 ```
 -  change permissions to apply to all users with `chmod a+x betty`  
 -  move the `betty` file into `/bin/` directory  
+
+## emacs config for betty
+emacs a new file called `.emacs`, and copy the script below: 
+
+```
+(setq c-default-style "bsd"
+      c-basic-offset 8
+      tab-width 8
+      indent-tabs-mode t)
+(require 'whitespace)
+(setq whitespace-style '(face empty lines-tail trailing))
+(global-whitespace-mode t)
+```
