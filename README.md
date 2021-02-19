@@ -6,6 +6,7 @@ git config --global credential.helper store
 ```
 
 ## betty linter
+```git clone https://github.com/holbertonschool/Betty.git```
 - `cd` into the Betty directory  
 - install the linter with `sudo ./install.sh`  
 - emacs a new file called `betty`, and copy the script below: 
