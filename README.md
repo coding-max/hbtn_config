@@ -9,7 +9,7 @@ git config --global credential.helper store
 - install the linter with 'sudo ./install.sh'  
 - emacs a new file called 'betty', and copy the script below: 
 
-''
+```
 #!/bin/bash
 # Simply a wrapper script to keep you from having to use betty-style
 # and betty-doc separately on every item.
@@ -30,6 +30,6 @@ for argument in "$@" ; do
     ${BIN_PATH}/${BETTY_STYLE} "$argument"
     ${BIN_PATH}/${BETTY_DOC} "$argument"
 done
-''
+```
 -  change permissions to apply to all users with 'chmod a+x betty'  
 -  move the 'betty' file into '/bin/' directory  
