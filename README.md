@@ -33,7 +33,7 @@ for argument in "$@" ; do
 done
 ```
 -  change permissions to apply to all users with `chmod a+x betty`  
--  move the `betty` file into `/bin/` directory  
+-  ```mv betty /bin/```
 
 ## emacs config for betty
 emacs a new file called `.emacs`, and copy the script below: 
