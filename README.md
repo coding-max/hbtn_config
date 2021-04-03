@@ -1,9 +1,4 @@
 # hbtn_config
-```
-git config --global user.name "Maximiliano Pan"  
-git config --global user.email "maximiliano.pan@hotmail.com"  
-git config --global credential.helper store  
-```
 
 ## betty linter
 ```git clone https://github.com/holbertonschool/Betty.git```
@@ -47,4 +42,11 @@ emacs a new file called `.emacs`, and copy the script below:
 (require 'whitespace)
 (setq whitespace-style '(face empty lines-tail trailing))
 (global-whitespace-mode t)
+```
+
+## shortcuts
+```
+git config --global user.name ""  
+git config --global user.email ""  
+git config --global credential.helper store  
 ```
